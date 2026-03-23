@@ -1,0 +1,21 @@
+{
+  "name": "doc-summarizer",
+  "version": "1.0.0",
+  "description": "Batch document summarizer with chunking and hierarchical merge strategies",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev":   "ts-node src/index.ts",
+    "test":  "vitest run"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node":     "^10.9.0",
+    "typescript":  "^5.0.0",
+    "vitest":      "^1.0.0"
+  }
+}
